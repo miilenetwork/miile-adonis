@@ -1,0 +1,15 @@
+{
+  "name": "stisla",
+  "homepage": "https://github.com/stisla/stisla",
+  "version": "2.2.0",
+  "_release": "2.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.2.0",
+    "commit": "db12dedada849ab4a8ce8f1be8d022b6e80dc835"
+  },
+  "_source": "git://github.com/stisla/stisla.git",
+  "_target": "^2.2.0",
+  "_originalSource": "git://github.com/stisla/stisla.git",
+  "_direct": true
+}
