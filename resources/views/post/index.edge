@@ -1,0 +1,6 @@
+@layout('layouts.main')
+@section('content')
+  @each(post in posts)
+  {{post.title}}
+  @endeach
+@endsection

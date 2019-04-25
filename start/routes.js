@@ -12,6 +12,12 @@
 | http://adonisjs.com/docs/4.1/routing
 |
 */
+/*  */
 
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
+
+Route.on('/').render('welcome')
+
+Route.resource('post','PostController')
+Route.resource('user','UserController')

@@ -1,0 +1,9 @@
+@layout('layouts/main')
+
+@section('content')
+@super()
+<section class="cont">
+  {{ csrfToken }}
+  {{ csrfField() }}
+</section>
+@endsection

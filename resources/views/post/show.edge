@@ -1,0 +1,11 @@
+@layout('layouts.main')
+
+@section('content')
+  <div class="container">
+  <h1 class="mt-5 mb-4">{{ShowPost.title}}</h1>
+  <div>
+    {{ShowPost.content}}
+  </div>
+    <button id="delete" data-csrf ="{{ csrfToken}}" data-id="{{ShowPost.id}}">DELETE</button>
+  </div>
+@endsection
